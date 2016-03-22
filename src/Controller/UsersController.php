@@ -19,7 +19,7 @@
 		                return $this->redirect(['controller' => 'frutas', 'action'=>'index']);
 	            	}else{
 	            		$this->Flash->success('Vendedor logado com sucesso!');
-		                return $this->redirect(['controller' => 'frutas', 'action'=>'add']);
+		                return $this->redirect(['controller' => 'vendas', 'action'=>'index']);
 	            	}
             }
             	$this->Flash->error('Login inválido!');
