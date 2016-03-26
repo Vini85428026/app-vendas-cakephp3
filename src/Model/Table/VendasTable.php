@@ -12,8 +12,10 @@
 	*/
 	class VendasTable extends Table {
 		public function initialize(array $config){
-			//lembrar ou nao
 			$this->addBehavior('Timestamp');
+			$this->hasOne('Frutas', [
+            'foreignKey' => 'fruta_id'
+        ]);
 		}
 
 		public function validationDefault(Validator $validator){

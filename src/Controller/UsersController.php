@@ -15,7 +15,7 @@
             	$this->Auth->setUser($user);
 				$usuario = $this->request->data['username'];
 	            	if($usuario=='administrador'){
-		            	$this->Flash->success('Admin logado com sucesso!');
+		            	$this->Flash->success('Administrador logado com sucesso!');
 		                return $this->redirect(['controller' => 'frutas', 'action'=>'index']);
 	            	}else{
 	            		$this->Flash->success('Vendedor logado com sucesso!');
@@ -28,7 +28,7 @@
 		}
 
 		public function logout(){
-			$this->Flash->success('Você se desconectou!');
+			$this->Flash->success('Usuário desconectado!');
 			return $this->redirect($this->Auth->logout());
 		}
 

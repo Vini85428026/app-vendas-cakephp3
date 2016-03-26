@@ -565,3 +565,383 @@ Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 87
 
 
 
+2016-03-22 11:25:09 Notice: Notice (8): Undefined variable: user in [/opt/lampp/htdocs/aplicativo/src/Template/Vendas/add.ctp, line 3]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 146
+include - APP/Template/Vendas/add.ctp, line 3
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 992
+Cake\View\View::_render() - CORE/src/View/View.php, line 952
+Cake\View\View::render() - CORE/src/View/View.php, line 587
+Cake\Controller\Controller::render() - CORE/src/Controller/Controller.php, line 611
+Cake\Routing\Dispatcher::_invoke() - CORE/src/Routing/Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 87
+[main] - ROOT/webroot/index.php, line 37
+
+
+
+2016-03-22 11:25:59 Notice: Notice (8): Undefined variable: user in [/opt/lampp/htdocs/aplicativo/src/Template/Vendas/add.ctp, line 3]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 146
+include - APP/Template/Vendas/add.ctp, line 3
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 992
+Cake\View\View::_render() - CORE/src/View/View.php, line 952
+Cake\View\View::render() - CORE/src/View/View.php, line 587
+Cake\Controller\Controller::render() - CORE/src/Controller/Controller.php, line 611
+Cake\Routing\Dispatcher::_invoke() - CORE/src/Routing/Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 87
+[main] - ROOT/webroot/index.php, line 37
+
+
+
+2016-03-22 11:26:08 Notice: Notice (8): Undefined variable: user in [/opt/lampp/htdocs/aplicativo/src/Template/Vendas/add.ctp, line 3]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 146
+include - APP/Template/Vendas/add.ctp, line 3
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 992
+Cake\View\View::_render() - CORE/src/View/View.php, line 952
+Cake\View\View::render() - CORE/src/View/View.php, line 587
+Cake\Controller\Controller::render() - CORE/src/Controller/Controller.php, line 611
+Cake\Routing\Dispatcher::_invoke() - CORE/src/Routing/Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 87
+[main] - ROOT/webroot/index.php, line 37
+
+
+
+2016-03-22 11:26:23 Notice: Notice (8): Undefined variable: user in [/opt/lampp/htdocs/aplicativo/src/Template/Vendas/add.ctp, line 3]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 146
+include - APP/Template/Vendas/add.ctp, line 3
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 992
+Cake\View\View::_render() - CORE/src/View/View.php, line 952
+Cake\View\View::render() - CORE/src/View/View.php, line 587
+Cake\Controller\Controller::render() - CORE/src/Controller/Controller.php, line 611
+Cake\Routing\Dispatcher::_invoke() - CORE/src/Routing/Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 87
+[main] - ROOT/webroot/index.php, line 37
+
+
+
+2016-03-22 11:33:07 Notice: Notice (8): Undefined variable: user in [/opt/lampp/htdocs/aplicativo/src/Template/Vendas/add.ctp, line 3]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 146
+include - APP/Template/Vendas/add.ctp, line 3
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 992
+Cake\View\View::_render() - CORE/src/View/View.php, line 952
+Cake\View\View::render() - CORE/src/View/View.php, line 587
+Cake\Controller\Controller::render() - CORE/src/Controller/Controller.php, line 611
+Cake\Routing\Dispatcher::_invoke() - CORE/src/Routing/Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 87
+[main] - ROOT/webroot/index.php, line 37
+
+
+
+2016-03-22 11:36:21 Notice: Notice (8): Undefined variable: venda in [/opt/lampp/htdocs/aplicativo/src/Template/Vendas/add.ctp, line 3]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 146
+include - APP/Template/Vendas/add.ctp, line 3
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 992
+Cake\View\View::_render() - CORE/src/View/View.php, line 952
+Cake\View\View::render() - CORE/src/View/View.php, line 587
+Cake\Controller\Controller::render() - CORE/src/Controller/Controller.php, line 611
+Cake\Routing\Dispatcher::_invoke() - CORE/src/Routing/Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 87
+[main] - ROOT/webroot/index.php, line 37
+
+
+
+2016-03-22 11:43:17 Notice: Notice (8): Undefined variable: vendas in [/opt/lampp/htdocs/aplicativo/src/Template/Vendas/index.ctp, line 13]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 146
+include - APP/Template/Vendas/index.ctp, line 13
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 992
+Cake\View\View::_render() - CORE/src/View/View.php, line 952
+Cake\View\View::render() - CORE/src/View/View.php, line 587
+Cake\Controller\Controller::render() - CORE/src/Controller/Controller.php, line 611
+Cake\Routing\Dispatcher::_invoke() - CORE/src/Routing/Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 87
+[main] - ROOT/webroot/index.php, line 37
+
+
+
+2016-03-22 12:13:24 Notice: Notice (8): Undefined variable: vendas in [/opt/lampp/htdocs/aplicativo/src/Template/Vendas/index.ctp, line 13]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 146
+include - APP/Template/Vendas/index.ctp, line 13
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 992
+Cake\View\View::_render() - CORE/src/View/View.php, line 952
+Cake\View\View::render() - CORE/src/View/View.php, line 587
+Cake\Controller\Controller::render() - CORE/src/Controller/Controller.php, line 611
+Cake\Routing\Dispatcher::_invoke() - CORE/src/Routing/Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 87
+[main] - ROOT/webroot/index.php, line 37
+
+
+
+2016-03-22 12:13:50 Notice: Notice (8): Undefined variable: vendas in [/opt/lampp/htdocs/aplicativo/src/Template/Vendas/index.ctp, line 13]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 146
+include - APP/Template/Vendas/index.ctp, line 13
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 992
+Cake\View\View::_render() - CORE/src/View/View.php, line 952
+Cake\View\View::render() - CORE/src/View/View.php, line 587
+Cake\Controller\Controller::render() - CORE/src/Controller/Controller.php, line 611
+Cake\Routing\Dispatcher::_invoke() - CORE/src/Routing/Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 87
+[main] - ROOT/webroot/index.php, line 37
+
+
+
+2016-03-22 12:14:33 Notice: Notice (8): Undefined variable: vendas in [/opt/lampp/htdocs/aplicativo/src/Template/Vendas/index.ctp, line 11]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 146
+include - APP/Template/Vendas/index.ctp, line 11
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 992
+Cake\View\View::_render() - CORE/src/View/View.php, line 952
+Cake\View\View::render() - CORE/src/View/View.php, line 587
+Cake\Controller\Controller::render() - CORE/src/Controller/Controller.php, line 611
+Cake\Routing\Dispatcher::_invoke() - CORE/src/Routing/Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 87
+[main] - ROOT/webroot/index.php, line 37
+
+
+
+2016-03-22 12:16:08 Notice: Notice (8): Undefined variable: vendas in [/opt/lampp/htdocs/aplicativo/src/Template/Vendas/index.ctp, line 11]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 146
+include - APP/Template/Vendas/index.ctp, line 11
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 992
+Cake\View\View::_render() - CORE/src/View/View.php, line 952
+Cake\View\View::render() - CORE/src/View/View.php, line 587
+Cake\Controller\Controller::render() - CORE/src/Controller/Controller.php, line 611
+Cake\Routing\Dispatcher::_invoke() - CORE/src/Routing/Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 87
+[main] - ROOT/webroot/index.php, line 37
+
+
+
+2016-03-22 12:48:40 Notice: Notice (8): Undefined variable: fruta in [/opt/lampp/htdocs/aplicativo/src/Template/Vendas/add.ctp, line 7]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 146
+include - APP/Template/Vendas/add.ctp, line 7
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 992
+Cake\View\View::_render() - CORE/src/View/View.php, line 952
+Cake\View\View::render() - CORE/src/View/View.php, line 587
+Cake\Controller\Controller::render() - CORE/src/Controller/Controller.php, line 611
+Cake\Routing\Dispatcher::_invoke() - CORE/src/Routing/Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 87
+[main] - ROOT/webroot/index.php, line 37
+
+
+
+2016-03-22 12:49:30 Notice: Notice (8): Trying to get property of non-object in [/opt/lampp/htdocs/aplicativo/src/Controller/VendasController.php, line 14]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 146
+App\Controller\VendasController::getFrutas() - APP/Controller/VendasController.php, line 14
+App\Controller\VendasController::add() - APP/Controller/VendasController.php, line 31
+Cake\Controller\Controller::invokeAction() - CORE/src/Controller/Controller.php, line 429
+Cake\Routing\Dispatcher::_invoke() - CORE/src/Routing/Dispatcher.php, line 114
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 87
+[main] - ROOT/webroot/index.php, line 37
+
+
+
+2016-03-22 12:50:36 Notice: Notice (8): Trying to get property of non-object in [/opt/lampp/htdocs/aplicativo/src/Controller/VendasController.php, line 14]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 146
+App\Controller\VendasController::getFrutas() - APP/Controller/VendasController.php, line 14
+App\Controller\VendasController::add() - APP/Controller/VendasController.php, line 31
+Cake\Controller\Controller::invokeAction() - CORE/src/Controller/Controller.php, line 429
+Cake\Routing\Dispatcher::_invoke() - CORE/src/Routing/Dispatcher.php, line 114
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 87
+[main] - ROOT/webroot/index.php, line 37
+
+
+
+2016-03-22 12:54:33 Notice: Notice (8): Trying to get property of non-object in [/opt/lampp/htdocs/aplicativo/src/Controller/VendasController.php, line 14]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 146
+App\Controller\VendasController::getFrutas() - APP/Controller/VendasController.php, line 14
+App\Controller\VendasController::add() - APP/Controller/VendasController.php, line 31
+Cake\Controller\Controller::invokeAction() - CORE/src/Controller/Controller.php, line 429
+Cake\Routing\Dispatcher::_invoke() - CORE/src/Routing/Dispatcher.php, line 114
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 87
+[main] - ROOT/webroot/index.php, line 37
+
+
+
+2016-03-22 13:03:17 Notice: Notice (8): Undefined variable: fruta in [/opt/lampp/htdocs/aplicativo/src/Template/Vendas/add.ctp, line 7]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 146
+include - APP/Template/Vendas/add.ctp, line 7
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 992
+Cake\View\View::_render() - CORE/src/View/View.php, line 952
+Cake\View\View::render() - CORE/src/View/View.php, line 587
+Cake\Controller\Controller::render() - CORE/src/Controller/Controller.php, line 611
+Cake\Routing\Dispatcher::_invoke() - CORE/src/Routing/Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 87
+[main] - ROOT/webroot/index.php, line 37
+
+
+
+2016-03-22 13:03:48 Notice: Notice (8): Undefined variable: fruta in [/opt/lampp/htdocs/aplicativo/src/Template/Vendas/add.ctp, line 7]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 146
+include - APP/Template/Vendas/add.ctp, line 7
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 992
+Cake\View\View::_render() - CORE/src/View/View.php, line 952
+Cake\View\View::render() - CORE/src/View/View.php, line 587
+Cake\Controller\Controller::render() - CORE/src/Controller/Controller.php, line 611
+Cake\Routing\Dispatcher::_invoke() - CORE/src/Routing/Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 87
+[main] - ROOT/webroot/index.php, line 37
+
+
+
+2016-03-22 14:15:30 Notice: Notice (8): Trying to get property of non-object in [/opt/lampp/htdocs/aplicativo/src/Controller/VendasController.php, line 11]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 146
+App\Controller\VendasController::index() - APP/Controller/VendasController.php, line 11
+Cake\Controller\Controller::invokeAction() - CORE/src/Controller/Controller.php, line 429
+Cake\Routing\Dispatcher::_invoke() - CORE/src/Routing/Dispatcher.php, line 114
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 87
+[main] - ROOT/webroot/index.php, line 37
+
+
+
+2016-03-22 14:16:12 Notice: Notice (8): Trying to get property of non-object in [/opt/lampp/htdocs/aplicativo/src/Controller/VendasController.php, line 11]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 146
+App\Controller\VendasController::index() - APP/Controller/VendasController.php, line 11
+Cake\Controller\Controller::invokeAction() - CORE/src/Controller/Controller.php, line 429
+Cake\Routing\Dispatcher::_invoke() - CORE/src/Routing/Dispatcher.php, line 114
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 87
+[main] - ROOT/webroot/index.php, line 37
+
+
+
+2016-03-22 14:19:01 Notice: Notice (8): Undefined variable: groups in [/opt/lampp/htdocs/aplicativo/src/Template/Vendas/add.ctp, line 8]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 146
+include - APP/Template/Vendas/add.ctp, line 8
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 992
+Cake\View\View::_render() - CORE/src/View/View.php, line 952
+Cake\View\View::render() - CORE/src/View/View.php, line 587
+Cake\Controller\Controller::render() - CORE/src/Controller/Controller.php, line 611
+Cake\Routing\Dispatcher::_invoke() - CORE/src/Routing/Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 87
+[main] - ROOT/webroot/index.php, line 37
+
+
+
+2016-03-22 14:20:17 Notice: Notice (8): Undefined variable: fruta in [/opt/lampp/htdocs/aplicativo/src/Template/Vendas/add.ctp, line 8]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 146
+include - APP/Template/Vendas/add.ctp, line 8
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 992
+Cake\View\View::_render() - CORE/src/View/View.php, line 952
+Cake\View\View::render() - CORE/src/View/View.php, line 587
+Cake\Controller\Controller::render() - CORE/src/Controller/Controller.php, line 611
+Cake\Routing\Dispatcher::_invoke() - CORE/src/Routing/Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 87
+[main] - ROOT/webroot/index.php, line 37
+
+
+
+2016-03-22 14:20:21 Notice: Notice (8): Undefined variable: fruta in [/opt/lampp/htdocs/aplicativo/src/Template/Vendas/add.ctp, line 8]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 146
+include - APP/Template/Vendas/add.ctp, line 8
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 992
+Cake\View\View::_render() - CORE/src/View/View.php, line 952
+Cake\View\View::render() - CORE/src/View/View.php, line 587
+Cake\Controller\Controller::render() - CORE/src/Controller/Controller.php, line 611
+Cake\Routing\Dispatcher::_invoke() - CORE/src/Routing/Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 87
+[main] - ROOT/webroot/index.php, line 37
+
+
+
+2016-03-22 14:20:43 Notice: Notice (8): Undefined variable: fruta in [/opt/lampp/htdocs/aplicativo/src/Template/Vendas/add.ctp, line 8]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 146
+include - APP/Template/Vendas/add.ctp, line 8
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 992
+Cake\View\View::_render() - CORE/src/View/View.php, line 952
+Cake\View\View::render() - CORE/src/View/View.php, line 587
+Cake\Controller\Controller::render() - CORE/src/Controller/Controller.php, line 611
+Cake\Routing\Dispatcher::_invoke() - CORE/src/Routing/Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 87
+[main] - ROOT/webroot/index.php, line 37
+
+
+
+2016-03-22 14:20:45 Notice: Notice (8): Undefined variable: fruta in [/opt/lampp/htdocs/aplicativo/src/Template/Vendas/add.ctp, line 8]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 146
+include - APP/Template/Vendas/add.ctp, line 8
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 992
+Cake\View\View::_render() - CORE/src/View/View.php, line 952
+Cake\View\View::render() - CORE/src/View/View.php, line 587
+Cake\Controller\Controller::render() - CORE/src/Controller/Controller.php, line 611
+Cake\Routing\Dispatcher::_invoke() - CORE/src/Routing/Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 87
+[main] - ROOT/webroot/index.php, line 37
+
+
+
+2016-03-22 14:21:30 Notice: Notice (8): Undefined variable: fruta in [/opt/lampp/htdocs/aplicativo/src/Template/Vendas/add.ctp, line 8]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 146
+include - APP/Template/Vendas/add.ctp, line 8
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 992
+Cake\View\View::_render() - CORE/src/View/View.php, line 952
+Cake\View\View::render() - CORE/src/View/View.php, line 587
+Cake\Controller\Controller::render() - CORE/src/Controller/Controller.php, line 611
+Cake\Routing\Dispatcher::_invoke() - CORE/src/Routing/Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 87
+[main] - ROOT/webroot/index.php, line 37
+
+
+
+2016-03-22 14:21:38 Notice: Notice (8): Undefined variable: fruta in [/opt/lampp/htdocs/aplicativo/src/Template/Vendas/add.ctp, line 8]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 146
+include - APP/Template/Vendas/add.ctp, line 8
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 992
+Cake\View\View::_render() - CORE/src/View/View.php, line 952
+Cake\View\View::render() - CORE/src/View/View.php, line 587
+Cake\Controller\Controller::render() - CORE/src/Controller/Controller.php, line 611
+Cake\Routing\Dispatcher::_invoke() - CORE/src/Routing/Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 87
+[main] - ROOT/webroot/index.php, line 37
+
+
+
+2016-03-22 14:22:23 Notice: Notice (8): Undefined variable: fruta in [/opt/lampp/htdocs/aplicativo/src/Template/Vendas/add.ctp, line 8]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 146
+include - APP/Template/Vendas/add.ctp, line 8
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 992
+Cake\View\View::_render() - CORE/src/View/View.php, line 952
+Cake\View\View::render() - CORE/src/View/View.php, line 587
+Cake\Controller\Controller::render() - CORE/src/Controller/Controller.php, line 611
+Cake\Routing\Dispatcher::_invoke() - CORE/src/Routing/Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 87
+[main] - ROOT/webroot/index.php, line 37
+
+
+
+2016-03-22 14:23:39 Notice: Notice (8): Undefined variable: groups in [/opt/lampp/htdocs/aplicativo/src/Template/Vendas/add.ctp, line 8]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 146
+include - APP/Template/Vendas/add.ctp, line 8
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 992
+Cake\View\View::_render() - CORE/src/View/View.php, line 952
+Cake\View\View::render() - CORE/src/View/View.php, line 587
+Cake\Controller\Controller::render() - CORE/src/Controller/Controller.php, line 611
+Cake\Routing\Dispatcher::_invoke() - CORE/src/Routing/Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 87
+[main] - ROOT/webroot/index.php, line 37
+
+
+

@@ -11,6 +11,7 @@
 			//lembrar ou nao
 			$this->addBehavior('Timestamp');
 			$this->displayField('nome');
+			 $this->belongsTo('Vendas');
 		}
 
 		public function validationDefault(Validator $validator){

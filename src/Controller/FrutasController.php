@@ -14,7 +14,7 @@
 			if($this->request->is(['post', 'put'])){
 				$this->Frutas->patchEntity($fruta, $this->request->data);
 				if($this->Frutas->save($fruta)){
-					$this->Flash->success(__("Fruta salvo com sucesso!"));
+					$this->Flash->success(__("Fruta salva com sucesso!"));
 					$this->redirect(['action'=>'index']);
 				}else{
 					$this->Flash->success(__("Adição com erro!"));

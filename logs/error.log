@@ -2651,3 +2651,396 @@ Stack Trace:
 #7 {main}
 
 
+2016-03-22 11:19:29 Error: Fatal Error (4): syntax error, unexpected ')', expecting ']' in [/opt/lampp/htdocs/aplicativo/src/Template/Vendas/index.ctp, line 3]
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE/src/Error/BaseErrorHandler.php, line 215
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE/src/Error/BaseErrorHandler.php, line 98
+[main] - [internal], line ??
+
+
+
+2016-03-22 11:19:29 Error: [Cake\Error\FatalErrorException] syntax error, unexpected ')', expecting ']'
+Request URL: /aplicativo/vendas
+Referer URL: http://localhost/aplicativo/users/login
+Stack Trace:
+#0 /opt/lampp/htdocs/aplicativo/vendor/cakephp/cakephp/src/Error/BaseErrorHandler.php(98): Cake\Error\BaseErrorHandler->handleFatalError(4, 'syntax error, u...', '/opt/lampp/htdo...', 3)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2016-03-22 11:19:39 Error: Fatal Error (4): syntax error, unexpected '?>' in [/opt/lampp/htdocs/aplicativo/src/Template/Vendas/index.ctp, line 3]
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE/src/Error/BaseErrorHandler.php, line 215
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE/src/Error/BaseErrorHandler.php, line 98
+[main] - [internal], line ??
+
+
+
+2016-03-22 11:19:40 Error: [Cake\Error\FatalErrorException] syntax error, unexpected '?>'
+Request URL: /aplicativo/vendas
+Referer URL: http://localhost/aplicativo/users/login
+Stack Trace:
+#0 /opt/lampp/htdocs/aplicativo/vendor/cakephp/cakephp/src/Error/BaseErrorHandler.php(98): Cake\Error\BaseErrorHandler->handleFatalError(4, 'syntax error, u...', '/opt/lampp/htdo...', 3)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2016-03-22 11:35:34 Error: [Cake\Database\Exception] SQLSTATE[42S02]: Base table or view not found: 1146 Table 'cake.vendas' doesn't exist
+Request URL: /aplicativo/vendas/add
+Referer URL: http://localhost/aplicativo/vendas
+Stack Trace:
+#0 /opt/lampp/htdocs/aplicativo/vendor/cakephp/cakephp/src/Database/Schema/Collection.php(96): Cake\Database\Schema\Collection->_reflect('Column', 'vendas', Array, Object(Cake\Database\Schema\Table))
+#1 /opt/lampp/htdocs/aplicativo/vendor/cakephp/cakephp/src/Database/Schema/CachedCollection.php(64): Cake\Database\Schema\Collection->describe('vendas', Array)
+#2 /opt/lampp/htdocs/aplicativo/vendor/cakephp/cakephp/src/ORM/Table.php(429): Cake\Database\Schema\CachedCollection->describe('vendas')
+#3 /opt/lampp/htdocs/aplicativo/vendor/cakephp/cakephp/src/ORM/Table.php(505): Cake\ORM\Table->schema()
+#4 /opt/lampp/htdocs/aplicativo/vendor/cakephp/cakephp/src/View/Form/EntityContext.php(171): Cake\ORM\Table->primaryKey()
+#5 /opt/lampp/htdocs/aplicativo/vendor/cakephp/cakephp/src/View/Helper/FormHelper.php(1152): Cake\View\Form\EntityContext->isPrimaryKey('valorvenda')
+#6 /opt/lampp/htdocs/aplicativo/vendor/cakephp/cakephp/src/View/Helper/FormHelper.php(1132): Cake\View\Helper\FormHelper->_inputType('valorvenda', Array)
+#7 /opt/lampp/htdocs/aplicativo/vendor/cakephp/cakephp/src/View/Helper/FormHelper.php(990): Cake\View\Helper\FormHelper->_parseOptions('valorvenda', Array)
+#8 /opt/lampp/htdocs/aplicativo/src/Template/Vendas/add.ctp(7): Cake\View\Helper\FormHelper->input('valorvenda')
+#9 /opt/lampp/htdocs/aplicativo/vendor/cakephp/cakephp/src/View/View.php(992): include('/opt/lampp/htdo...')
+#10 /opt/lampp/htdocs/aplicativo/vendor/cakephp/cakephp/src/View/View.php(952): Cake\View\View->_evaluate('/opt/lampp/htdo...', Array)
+#11 /opt/lampp/htdocs/aplicativo/vendor/cakephp/cakephp/src/View/View.php(587): Cake\View\View->_render('/opt/lampp/htdo...')
+#12 /opt/lampp/htdocs/aplicativo/vendor/cakephp/cakephp/src/Controller/Controller.php(611): Cake\View\View->render(NULL, NULL)
+#13 /opt/lampp/htdocs/aplicativo/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(120): Cake\Controller\Controller->render()
+#14 /opt/lampp/htdocs/aplicativo/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\VendasController))
+#15 /opt/lampp/htdocs/aplicativo/webroot/index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#16 {main}
+
+
+2016-03-22 11:43:17 Warning: Warning (2): Invalid argument supplied for foreach() in [/opt/lampp/htdocs/aplicativo/src/Template/Vendas/index.ctp, line 13]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 146
+include - APP/Template/Vendas/index.ctp, line 13
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 992
+Cake\View\View::_render() - CORE/src/View/View.php, line 952
+Cake\View\View::render() - CORE/src/View/View.php, line 587
+Cake\Controller\Controller::render() - CORE/src/Controller/Controller.php, line 611
+Cake\Routing\Dispatcher::_invoke() - CORE/src/Routing/Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 87
+[main] - ROOT/webroot/index.php, line 37
+
+
+
+2016-03-22 12:13:24 Warning: Warning (2): Invalid argument supplied for foreach() in [/opt/lampp/htdocs/aplicativo/src/Template/Vendas/index.ctp, line 13]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 146
+include - APP/Template/Vendas/index.ctp, line 13
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 992
+Cake\View\View::_render() - CORE/src/View/View.php, line 952
+Cake\View\View::render() - CORE/src/View/View.php, line 587
+Cake\Controller\Controller::render() - CORE/src/Controller/Controller.php, line 611
+Cake\Routing\Dispatcher::_invoke() - CORE/src/Routing/Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 87
+[main] - ROOT/webroot/index.php, line 37
+
+
+
+2016-03-22 12:13:50 Warning: Warning (2): Invalid argument supplied for foreach() in [/opt/lampp/htdocs/aplicativo/src/Template/Vendas/index.ctp, line 13]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 146
+include - APP/Template/Vendas/index.ctp, line 13
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 992
+Cake\View\View::_render() - CORE/src/View/View.php, line 952
+Cake\View\View::render() - CORE/src/View/View.php, line 587
+Cake\Controller\Controller::render() - CORE/src/Controller/Controller.php, line 611
+Cake\Routing\Dispatcher::_invoke() - CORE/src/Routing/Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 87
+[main] - ROOT/webroot/index.php, line 37
+
+
+
+2016-03-22 12:14:33 Warning: Warning (2): Invalid argument supplied for foreach() in [/opt/lampp/htdocs/aplicativo/src/Template/Vendas/index.ctp, line 11]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 146
+include - APP/Template/Vendas/index.ctp, line 11
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 992
+Cake\View\View::_render() - CORE/src/View/View.php, line 952
+Cake\View\View::render() - CORE/src/View/View.php, line 587
+Cake\Controller\Controller::render() - CORE/src/Controller/Controller.php, line 611
+Cake\Routing\Dispatcher::_invoke() - CORE/src/Routing/Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 87
+[main] - ROOT/webroot/index.php, line 37
+
+
+
+2016-03-22 12:16:08 Warning: Warning (2): Invalid argument supplied for foreach() in [/opt/lampp/htdocs/aplicativo/src/Template/Vendas/index.ctp, line 11]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 146
+include - APP/Template/Vendas/index.ctp, line 11
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 992
+Cake\View\View::_render() - CORE/src/View/View.php, line 952
+Cake\View\View::render() - CORE/src/View/View.php, line 587
+Cake\Controller\Controller::render() - CORE/src/Controller/Controller.php, line 611
+Cake\Routing\Dispatcher::_invoke() - CORE/src/Routing/Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 87
+[main] - ROOT/webroot/index.php, line 37
+
+
+
+2016-03-22 12:48:16 Error: Fatal Error (4): syntax error, unexpected 'echo' (T_ECHO) in [/opt/lampp/htdocs/aplicativo/src/Template/Vendas/add.ctp, line 8]
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE/src/Error/BaseErrorHandler.php, line 215
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE/src/Error/BaseErrorHandler.php, line 98
+[main] - [internal], line ??
+
+
+
+2016-03-22 12:48:16 Error: [Cake\Error\FatalErrorException] syntax error, unexpected 'echo' (T_ECHO)
+Request URL: /aplicativo/vendas/add
+Referer URL: http://localhost/aplicativo/vendas
+Stack Trace:
+#0 /opt/lampp/htdocs/aplicativo/vendor/cakephp/cakephp/src/Error/BaseErrorHandler.php(98): Cake\Error\BaseErrorHandler->handleFatalError(4, 'syntax error, u...', '/opt/lampp/htdo...', 8)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2016-03-22 12:49:30 Error: Fatal Error (1): Call to a member function find() on null in [/opt/lampp/htdocs/aplicativo/src/Controller/VendasController.php, line 14]
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE/src/Error/BaseErrorHandler.php, line 215
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE/src/Error/BaseErrorHandler.php, line 98
+[main] - [internal], line ??
+
+
+
+2016-03-22 12:49:30 Error: [Cake\Error\FatalErrorException] Call to a member function find() on null
+Request URL: /aplicativo/vendas/add
+Referer URL: http://localhost/aplicativo/vendas
+Stack Trace:
+#0 /opt/lampp/htdocs/aplicativo/vendor/cakephp/cakephp/src/Error/BaseErrorHandler.php(98): Cake\Error\BaseErrorHandler->handleFatalError(1, 'Call to a membe...', '/opt/lampp/htdo...', 14)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2016-03-22 12:50:36 Error: Fatal Error (1): Call to a member function find() on null in [/opt/lampp/htdocs/aplicativo/src/Controller/VendasController.php, line 14]
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE/src/Error/BaseErrorHandler.php, line 215
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE/src/Error/BaseErrorHandler.php, line 98
+[main] - [internal], line ??
+
+
+
+2016-03-22 12:50:36 Error: [Cake\Error\FatalErrorException] Call to a member function find() on null
+Request URL: /aplicativo/vendas/add
+Referer URL: http://localhost/aplicativo/vendas
+Stack Trace:
+#0 /opt/lampp/htdocs/aplicativo/vendor/cakephp/cakephp/src/Error/BaseErrorHandler.php(98): Cake\Error\BaseErrorHandler->handleFatalError(1, 'Call to a membe...', '/opt/lampp/htdo...', 14)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2016-03-22 12:54:33 Error: Fatal Error (1): Call to a member function find() on null in [/opt/lampp/htdocs/aplicativo/src/Controller/VendasController.php, line 14]
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE/src/Error/BaseErrorHandler.php, line 215
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE/src/Error/BaseErrorHandler.php, line 98
+[main] - [internal], line ??
+
+
+
+2016-03-22 12:54:33 Error: [Cake\Error\FatalErrorException] Call to a member function find() on null
+Request URL: /aplicativo/vendas/add
+Stack Trace:
+#0 /opt/lampp/htdocs/aplicativo/vendor/cakephp/cakephp/src/Error/BaseErrorHandler.php(98): Cake\Error\BaseErrorHandler->handleFatalError(1, 'Call to a membe...', '/opt/lampp/htdo...', 14)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2016-03-22 13:05:23 Error: Fatal Error (1): Call to undefined function App\Controller\getFrutas() in [/opt/lampp/htdocs/aplicativo/src/Controller/VendasController.php, line 32]
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE/src/Error/BaseErrorHandler.php, line 215
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE/src/Error/BaseErrorHandler.php, line 98
+[main] - [internal], line ??
+
+
+
+2016-03-22 13:05:23 Error: [Cake\Error\FatalErrorException] Call to undefined function App\Controller\getFrutas()
+Request URL: /aplicativo/vendas/add
+Stack Trace:
+#0 /opt/lampp/htdocs/aplicativo/vendor/cakephp/cakephp/src/Error/BaseErrorHandler.php(98): Cake\Error\BaseErrorHandler->handleFatalError(1, 'Call to undefin...', '/opt/lampp/htdo...', 32)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2016-03-22 14:15:30 Error: Fatal Error (1): Call to a member function find() on null in [/opt/lampp/htdocs/aplicativo/src/Controller/VendasController.php, line 11]
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE/src/Error/BaseErrorHandler.php, line 215
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE/src/Error/BaseErrorHandler.php, line 98
+[main] - [internal], line ??
+
+
+
+2016-03-22 14:15:30 Error: [Cake\Error\FatalErrorException] Call to a member function find() on null
+Request URL: /aplicativo/vendas
+Referer URL: http://localhost/aplicativo/users/login
+Stack Trace:
+#0 /opt/lampp/htdocs/aplicativo/vendor/cakephp/cakephp/src/Error/BaseErrorHandler.php(98): Cake\Error\BaseErrorHandler->handleFatalError(1, 'Call to a membe...', '/opt/lampp/htdo...', 11)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2016-03-22 14:16:12 Error: Fatal Error (1): Call to a member function find() on null in [/opt/lampp/htdocs/aplicativo/src/Controller/VendasController.php, line 11]
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE/src/Error/BaseErrorHandler.php, line 215
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE/src/Error/BaseErrorHandler.php, line 98
+[main] - [internal], line ??
+
+
+
+2016-03-22 14:16:12 Error: [Cake\Error\FatalErrorException] Call to a member function find() on null
+Request URL: /aplicativo/vendas
+Referer URL: http://localhost/aplicativo/users/login
+Stack Trace:
+#0 /opt/lampp/htdocs/aplicativo/vendor/cakephp/cakephp/src/Error/BaseErrorHandler.php(98): Cake\Error\BaseErrorHandler->handleFatalError(1, 'Call to a membe...', '/opt/lampp/htdo...', 11)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2016-03-22 17:35:30 Error: Fatal Error (4): syntax error, unexpected '?>' in [/opt/lampp/htdocs/aplicativo/src/Template/Vendas/add.ctp, line 12]
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE/src/Error/BaseErrorHandler.php, line 215
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE/src/Error/BaseErrorHandler.php, line 98
+[main] - [internal], line ??
+
+
+
+2016-03-22 17:35:31 Error: [Cake\Error\FatalErrorException] syntax error, unexpected '?>'
+Request URL: /aplicativo/vendas/add
+Referer URL: http://localhost/aplicativo/vendas
+Stack Trace:
+#0 /opt/lampp/htdocs/aplicativo/vendor/cakephp/cakephp/src/Error/BaseErrorHandler.php(98): Cake\Error\BaseErrorHandler->handleFatalError(4, 'syntax error, u...', '/opt/lampp/htdo...', 12)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2016-03-22 17:35:40 Error: Fatal Error (4): syntax error, unexpected ';' in [/opt/lampp/htdocs/aplicativo/src/Template/Vendas/add.ctp, line 11]
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE/src/Error/BaseErrorHandler.php, line 215
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE/src/Error/BaseErrorHandler.php, line 98
+[main] - [internal], line ??
+
+
+
+2016-03-22 17:35:40 Error: [Cake\Error\FatalErrorException] syntax error, unexpected ';'
+Request URL: /aplicativo/vendas/add
+Referer URL: http://localhost/aplicativo/vendas
+Stack Trace:
+#0 /opt/lampp/htdocs/aplicativo/vendor/cakephp/cakephp/src/Error/BaseErrorHandler.php(98): Cake\Error\BaseErrorHandler->handleFatalError(4, 'syntax error, u...', '/opt/lampp/htdo...', 11)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2016-03-22 17:42:11 Error: [PDOException] SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`cake`.`vendas`, CONSTRAINT `fk_vendas_frutas` FOREIGN KEY (`fruta_id`) REFERENCES `frutas` (`id`))
+Request URL: /aplicativo/vendas/add
+Referer URL: http://localhost/aplicativo/vendas/add
+Stack Trace:
+#0 /opt/lampp/htdocs/aplicativo/vendor/cakephp/cakephp/src/Database/Statement/MysqlStatement.php(36): PDOStatement->execute(NULL)
+#1 /opt/lampp/htdocs/aplicativo/vendor/cakephp/cakephp/src/Database/Statement/StatementDecorator.php(171): Cake\Database\Statement\MysqlStatement->execute(NULL)
+#2 /opt/lampp/htdocs/aplicativo/vendor/cakephp/cakephp/src/Database/Log/LoggingStatement.php(56): Cake\Database\Statement\StatementDecorator->execute(NULL)
+#3 /opt/lampp/htdocs/aplicativo/vendor/cakephp/cakephp/src/Database/Connection.php(270): Cake\Database\Log\LoggingStatement->execute()
+#4 /opt/lampp/htdocs/aplicativo/vendor/cakephp/cakephp/src/Database/Query.php(188): Cake\Database\Connection->run(Object(Cake\ORM\Query))
+#5 /opt/lampp/htdocs/aplicativo/vendor/cakephp/cakephp/src/ORM/Table.php(1544): Cake\Database\Query->execute()
+#6 /opt/lampp/htdocs/aplicativo/vendor/cakephp/cakephp/src/ORM/Table.php(1460): Cake\ORM\Table->_insert(Object(App\Model\Entity\Venda), Array)
+#7 /opt/lampp/htdocs/aplicativo/vendor/cakephp/cakephp/src/ORM/Table.php(1391): Cake\ORM\Table->_processSave(Object(App\Model\Entity\Venda), Object(ArrayObject))
+#8 /opt/lampp/htdocs/aplicativo/vendor/cakephp/cakephp/src/Database/Connection.php(557): Cake\ORM\Table->Cake\ORM\{closure}(Object(Cake\Database\Connection))
+#9 /opt/lampp/htdocs/aplicativo/vendor/cakephp/cakephp/src/ORM/Table.php(1392): Cake\Database\Connection->transactional(Object(Closure))
+#10 /opt/lampp/htdocs/aplicativo/src/Controller/VendasController.php(17): Cake\ORM\Table->save(Object(App\Model\Entity\Venda))
+#11 [internal function]: App\Controller\VendasController->add()
+#12 /opt/lampp/htdocs/aplicativo/vendor/cakephp/cakephp/src/Controller/Controller.php(429): call_user_func_array(Array, Array)
+#13 /opt/lampp/htdocs/aplicativo/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(114): Cake\Controller\Controller->invokeAction()
+#14 /opt/lampp/htdocs/aplicativo/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\VendasController))
+#15 /opt/lampp/htdocs/aplicativo/webroot/index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#16 {main}
+
+
+2016-03-22 17:45:57 Error: [PDOException] SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`cake`.`vendas`, CONSTRAINT `fk_vendas_frutas` FOREIGN KEY (`fruta_id`) REFERENCES `frutas` (`id`))
+Request URL: /aplicativo/vendas/add
+Referer URL: http://localhost/aplicativo/vendas/add
+Stack Trace:
+#0 /opt/lampp/htdocs/aplicativo/vendor/cakephp/cakephp/src/Database/Statement/MysqlStatement.php(36): PDOStatement->execute(NULL)
+#1 /opt/lampp/htdocs/aplicativo/vendor/cakephp/cakephp/src/Database/Statement/StatementDecorator.php(171): Cake\Database\Statement\MysqlStatement->execute(NULL)
+#2 /opt/lampp/htdocs/aplicativo/vendor/cakephp/cakephp/src/Database/Log/LoggingStatement.php(56): Cake\Database\Statement\StatementDecorator->execute(NULL)
+#3 /opt/lampp/htdocs/aplicativo/vendor/cakephp/cakephp/src/Database/Connection.php(270): Cake\Database\Log\LoggingStatement->execute()
+#4 /opt/lampp/htdocs/aplicativo/vendor/cakephp/cakephp/src/Database/Query.php(188): Cake\Database\Connection->run(Object(Cake\ORM\Query))
+#5 /opt/lampp/htdocs/aplicativo/vendor/cakephp/cakephp/src/ORM/Table.php(1544): Cake\Database\Query->execute()
+#6 /opt/lampp/htdocs/aplicativo/vendor/cakephp/cakephp/src/ORM/Table.php(1460): Cake\ORM\Table->_insert(Object(App\Model\Entity\Venda), Array)
+#7 /opt/lampp/htdocs/aplicativo/vendor/cakephp/cakephp/src/ORM/Table.php(1391): Cake\ORM\Table->_processSave(Object(App\Model\Entity\Venda), Object(ArrayObject))
+#8 /opt/lampp/htdocs/aplicativo/vendor/cakephp/cakephp/src/Database/Connection.php(557): Cake\ORM\Table->Cake\ORM\{closure}(Object(Cake\Database\Connection))
+#9 /opt/lampp/htdocs/aplicativo/vendor/cakephp/cakephp/src/ORM/Table.php(1392): Cake\Database\Connection->transactional(Object(Closure))
+#10 /opt/lampp/htdocs/aplicativo/src/Controller/VendasController.php(17): Cake\ORM\Table->save(Object(App\Model\Entity\Venda))
+#11 [internal function]: App\Controller\VendasController->add()
+#12 /opt/lampp/htdocs/aplicativo/vendor/cakephp/cakephp/src/Controller/Controller.php(429): call_user_func_array(Array, Array)
+#13 /opt/lampp/htdocs/aplicativo/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(114): Cake\Controller\Controller->invokeAction()
+#14 /opt/lampp/htdocs/aplicativo/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\VendasController))
+#15 /opt/lampp/htdocs/aplicativo/webroot/index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#16 {main}
+
+
+2016-03-22 17:46:27 Error: [PDOException] SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`cake`.`vendas`, CONSTRAINT `fk_vendas_frutas` FOREIGN KEY (`fruta_id`) REFERENCES `frutas` (`id`))
+Request URL: /aplicativo/vendas/add
+Referer URL: http://localhost/aplicativo/vendas/add
+Stack Trace:
+#0 /opt/lampp/htdocs/aplicativo/vendor/cakephp/cakephp/src/Database/Statement/MysqlStatement.php(36): PDOStatement->execute(NULL)
+#1 /opt/lampp/htdocs/aplicativo/vendor/cakephp/cakephp/src/Database/Statement/StatementDecorator.php(171): Cake\Database\Statement\MysqlStatement->execute(NULL)
+#2 /opt/lampp/htdocs/aplicativo/vendor/cakephp/cakephp/src/Database/Log/LoggingStatement.php(56): Cake\Database\Statement\StatementDecorator->execute(NULL)
+#3 /opt/lampp/htdocs/aplicativo/vendor/cakephp/cakephp/src/Database/Connection.php(270): Cake\Database\Log\LoggingStatement->execute()
+#4 /opt/lampp/htdocs/aplicativo/vendor/cakephp/cakephp/src/Database/Query.php(188): Cake\Database\Connection->run(Object(Cake\ORM\Query))
+#5 /opt/lampp/htdocs/aplicativo/vendor/cakephp/cakephp/src/ORM/Table.php(1544): Cake\Database\Query->execute()
+#6 /opt/lampp/htdocs/aplicativo/vendor/cakephp/cakephp/src/ORM/Table.php(1460): Cake\ORM\Table->_insert(Object(App\Model\Entity\Venda), Array)
+#7 /opt/lampp/htdocs/aplicativo/vendor/cakephp/cakephp/src/ORM/Table.php(1391): Cake\ORM\Table->_processSave(Object(App\Model\Entity\Venda), Object(ArrayObject))
+#8 /opt/lampp/htdocs/aplicativo/vendor/cakephp/cakephp/src/Database/Connection.php(557): Cake\ORM\Table->Cake\ORM\{closure}(Object(Cake\Database\Connection))
+#9 /opt/lampp/htdocs/aplicativo/vendor/cakephp/cakephp/src/ORM/Table.php(1392): Cake\Database\Connection->transactional(Object(Closure))
+#10 /opt/lampp/htdocs/aplicativo/src/Controller/VendasController.php(17): Cake\ORM\Table->save(Object(App\Model\Entity\Venda))
+#11 [internal function]: App\Controller\VendasController->add()
+#12 /opt/lampp/htdocs/aplicativo/vendor/cakephp/cakephp/src/Controller/Controller.php(429): call_user_func_array(Array, Array)
+#13 /opt/lampp/htdocs/aplicativo/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(114): Cake\Controller\Controller->invokeAction()
+#14 /opt/lampp/htdocs/aplicativo/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\VendasController))
+#15 /opt/lampp/htdocs/aplicativo/webroot/index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#16 {main}
+
+
+2016-03-22 17:47:55 Error: [PDOException] SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`cake`.`vendas`, CONSTRAINT `fk_vendas_frutas` FOREIGN KEY (`fruta_id`) REFERENCES `frutas` (`id`))
+Request URL: /aplicativo/vendas/add
+Referer URL: http://localhost/aplicativo/vendas/add
+Stack Trace:
+#0 /opt/lampp/htdocs/aplicativo/vendor/cakephp/cakephp/src/Database/Statement/MysqlStatement.php(36): PDOStatement->execute(NULL)
+#1 /opt/lampp/htdocs/aplicativo/vendor/cakephp/cakephp/src/Database/Statement/StatementDecorator.php(171): Cake\Database\Statement\MysqlStatement->execute(NULL)
+#2 /opt/lampp/htdocs/aplicativo/vendor/cakephp/cakephp/src/Database/Log/LoggingStatement.php(56): Cake\Database\Statement\StatementDecorator->execute(NULL)
+#3 /opt/lampp/htdocs/aplicativo/vendor/cakephp/cakephp/src/Database/Connection.php(270): Cake\Database\Log\LoggingStatement->execute()
+#4 /opt/lampp/htdocs/aplicativo/vendor/cakephp/cakephp/src/Database/Query.php(188): Cake\Database\Connection->run(Object(Cake\ORM\Query))
+#5 /opt/lampp/htdocs/aplicativo/vendor/cakephp/cakephp/src/ORM/Table.php(1544): Cake\Database\Query->execute()
+#6 /opt/lampp/htdocs/aplicativo/vendor/cakephp/cakephp/src/ORM/Table.php(1460): Cake\ORM\Table->_insert(Object(App\Model\Entity\Venda), Array)
+#7 /opt/lampp/htdocs/aplicativo/vendor/cakephp/cakephp/src/ORM/Table.php(1391): Cake\ORM\Table->_processSave(Object(App\Model\Entity\Venda), Object(ArrayObject))
+#8 /opt/lampp/htdocs/aplicativo/vendor/cakephp/cakephp/src/Database/Connection.php(557): Cake\ORM\Table->Cake\ORM\{closure}(Object(Cake\Database\Connection))
+#9 /opt/lampp/htdocs/aplicativo/vendor/cakephp/cakephp/src/ORM/Table.php(1392): Cake\Database\Connection->transactional(Object(Closure))
+#10 /opt/lampp/htdocs/aplicativo/src/Controller/VendasController.php(17): Cake\ORM\Table->save(Object(App\Model\Entity\Venda))
+#11 [internal function]: App\Controller\VendasController->add()
+#12 /opt/lampp/htdocs/aplicativo/vendor/cakephp/cakephp/src/Controller/Controller.php(429): call_user_func_array(Array, Array)
+#13 /opt/lampp/htdocs/aplicativo/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(114): Cake\Controller\Controller->invokeAction()
+#14 /opt/lampp/htdocs/aplicativo/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\VendasController))
+#15 /opt/lampp/htdocs/aplicativo/webroot/index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#16 {main}
+
+
+2016-03-22 17:49:33 Error: [PDOException] SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`cake`.`vendas`, CONSTRAINT `fk_vendas_frutas` FOREIGN KEY (`fruta_id`) REFERENCES `frutas` (`id`) ON DELETE NO ACTION ON UPDATE NO ACTION)
+Request URL: /aplicativo/vendas/add
+Referer URL: http://localhost/aplicativo/vendas/add
+Stack Trace:
+#0 /opt/lampp/htdocs/aplicativo/vendor/cakephp/cakephp/src/Database/Statement/MysqlStatement.php(36): PDOStatement->execute(NULL)
+#1 /opt/lampp/htdocs/aplicativo/vendor/cakephp/cakephp/src/Database/Statement/StatementDecorator.php(171): Cake\Database\Statement\MysqlStatement->execute(NULL)
+#2 /opt/lampp/htdocs/aplicativo/vendor/cakephp/cakephp/src/Database/Log/LoggingStatement.php(56): Cake\Database\Statement\StatementDecorator->execute(NULL)
+#3 /opt/lampp/htdocs/aplicativo/vendor/cakephp/cakephp/src/Database/Connection.php(270): Cake\Database\Log\LoggingStatement->execute()
+#4 /opt/lampp/htdocs/aplicativo/vendor/cakephp/cakephp/src/Database/Query.php(188): Cake\Database\Connection->run(Object(Cake\ORM\Query))
+#5 /opt/lampp/htdocs/aplicativo/vendor/cakephp/cakephp/src/ORM/Table.php(1544): Cake\Database\Query->execute()
+#6 /opt/lampp/htdocs/aplicativo/vendor/cakephp/cakephp/src/ORM/Table.php(1460): Cake\ORM\Table->_insert(Object(App\Model\Entity\Venda), Array)
+#7 /opt/lampp/htdocs/aplicativo/vendor/cakephp/cakephp/src/ORM/Table.php(1391): Cake\ORM\Table->_processSave(Object(App\Model\Entity\Venda), Object(ArrayObject))
+#8 /opt/lampp/htdocs/aplicativo/vendor/cakephp/cakephp/src/Database/Connection.php(557): Cake\ORM\Table->Cake\ORM\{closure}(Object(Cake\Database\Connection))
+#9 /opt/lampp/htdocs/aplicativo/vendor/cakephp/cakephp/src/ORM/Table.php(1392): Cake\Database\Connection->transactional(Object(Closure))
+#10 /opt/lampp/htdocs/aplicativo/src/Controller/VendasController.php(17): Cake\ORM\Table->save(Object(App\Model\Entity\Venda))
+#11 [internal function]: App\Controller\VendasController->add()
+#12 /opt/lampp/htdocs/aplicativo/vendor/cakephp/cakephp/src/Controller/Controller.php(429): call_user_func_array(Array, Array)
+#13 /opt/lampp/htdocs/aplicativo/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(114): Cake\Controller\Controller->invokeAction()
+#14 /opt/lampp/htdocs/aplicativo/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\VendasController))
+#15 /opt/lampp/htdocs/aplicativo/webroot/index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#16 {main}
+
+
